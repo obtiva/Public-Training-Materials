@@ -30,7 +30,6 @@ class Markup
   end
 end
 
-#Usage
 doc = Markup.document do
   html do 
     title { "Foo" }
@@ -41,10 +40,3 @@ doc = Markup.document do
 end
 puts doc
 
-#Exercises
-
-# Support block-less text body form (title "Foo")
-# Support attributes with body
-# support attribute-only tags
-#
-# Pretty formatting
